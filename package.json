@@ -5,11 +5,14 @@
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.3.1",
+    "uuid": "^8.3.2",
+    "craco": "^0.0.3"
   },
   "scripts": {
-    "dev": "BROWSER=none react-scripts start",
-    "build": "react-scripts build",
+    "start": "BROWSER=none craco start",
+    "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
